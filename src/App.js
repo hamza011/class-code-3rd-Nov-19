@@ -2,24 +2,18 @@ import React from 'react'
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import './App.css'
-
+import Todo1 from "./haris/Todo1"
 function App () {
-  var userName = "Taha";
+ {/* var userName = "Taha";
   const fn = () => {
     return "Dummy text";
   }
   const clickEvent = () => {
     console.log("clicked");
-  }
+  }*/}
   return (
     <div className='App'>
-      <Header />
-      <h1>Hello {userName == "Taha" ? userName : "??"}</h1>
-      <h1>Hello {2 + 2}</h1>
-      {/* <h1>Hello {fn()}</h1> */}
-      <button onClick={clickEvent}>Click</button>
-      {/* <button onMouseOver={clickEvent}>Hover</button> */}
-      <Footer />
+      <Todo1 />
     </div>
   )
 }
